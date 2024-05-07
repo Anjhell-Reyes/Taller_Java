@@ -23,4 +23,12 @@ public class Rectangtulo extends FiguraGeometrica{
     public void setAltura(Integer altura) {
         this.altura = altura;
     }
+
+    public void calcularArea(){
+        System.out.println("El area de este rectangulo es de: \n" + (this.base*this.altura) + "cm^2");
+    }
+
+    public void calcularPerimetro(){
+        System.out.println("El perimetro de este rectangulo es de: \n" + (this.base*2+this.altura*2) + "cm");
+    }
 }

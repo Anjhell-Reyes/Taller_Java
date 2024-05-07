@@ -22,4 +22,8 @@ public class Empleado2 {
     public void setSalarioBase(double salarioBase) {
         this.salarioBase = salarioBase;
     }
+
+    public double calcularSalario(){
+        return this.salarioBase;
+    }
 }

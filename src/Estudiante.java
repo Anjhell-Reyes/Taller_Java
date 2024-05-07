@@ -1,9 +1,13 @@
-public class Estudiante extends Persona{
+public class Estudiante extends Persona implements Trabajador{
     private Integer grado;
 
     public Estudiante(String nombre, Integer edad, String fechaNacimiento, Integer grado) {
         super(nombre, edad, fechaNacimiento);
         this.grado = grado;
+    }
+
+    public void realizarTarea(){
+        System.out.println("Realizando tarea escolar");
     }
 
     public Integer getGrado() {
